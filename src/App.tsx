@@ -7,7 +7,7 @@ import { Rule } from "./components/pages/Rule";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-slate-100 border border-stone-600 rounded box-border h-screen w-2/3 mx-auto">
+      <div className="bg-slate-100 border border-stone-600 rounded box-border h-screen w-2/3 relative mx-auto">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/game" element={<Game />} />
